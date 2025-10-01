@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://lorac-lab.github.io/IIIF092025/manifests/manifest2.json",
     "label" : "Uploaded by Carol"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lorac-lab.github.io/IIIF092025/manifests/manifest2",
+    "label" : "Uploaded by Carol"
   } ]
 }

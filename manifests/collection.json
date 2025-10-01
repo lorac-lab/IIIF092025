@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://lorac-lab.github.io/IIIF092025/manifests/test",
     "label" : "Uploaded by Carol"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lorac-lab.github.io/IIIF092025/manifests/manifest.json",
+    "label" : "[Click to edit label]"
   } ]
 }

@@ -1,0 +1,92 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://lorac-lab.github.io/IIIF092025/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://c4bb1486-3fd0-4341-a305-2df52ef43865",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://bb0d4094-52b2-4f6e-9745-398091f02a32",
+      "@type" : "sc:Canvas",
+      "label" : "Elgin Botanical Gardens",
+      "height" : 4038,
+      "width" : 3061,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://20a881e2-d57a-401a-b84a-fc51129a3317",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/elgin_botanical_gardens_1943.8.10547%2felgin_botanical_gardens_1943.8.10547.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/elgin_botanical_gardens_1943.8.10547%2felgin_botanical_gardens_1943.8.10547.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 12360318,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4038,
+          "width" : 3061
+        },
+        "on" : "http://bb0d4094-52b2-4f6e-9745-398091f02a32"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ad41cc7c-69c6-418c-8215-b10e9b241090",
+      "@type" : "sc:Canvas",
+      "label" : "Flower Studies",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    }, {
+      "@id" : "http://545fb2f9-9a3c-49c6-9384-8fa7547411c9",
+      "@type" : "sc:Canvas",
+      "label" : "Manuscript",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://17f79cbc-155a-4435-ba42-25e3d21f36e0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://545fb2f9-9a3c-49c6-9384-8fa7547411c9"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
